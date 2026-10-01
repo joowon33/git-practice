@@ -26,17 +26,13 @@ python main.py
 
 Git, Python, VS Code와 GitHub 계정을 준비하세요. 아래 명령은 Windows PowerShell 기준입니다. 코드 블록을 단계별로 실행하세요.
 
-**이 자료가 있는 CS101 폴더에서** 다음 명령을 실행합니다. 원본 옆에 자신의 실습 폴더가 생깁니다.
 
 ```powershell
-git clone ./git-practice git-my-practice
-cd git-my-practice
-code .
+git clone ./git-practice https://github.com/downtown1629/git-practice.git
+cd git-practice
 ```
 
-강사가 GitHub 주소로 배포했다면 첫 줄 대신 `git clone 강사가_준_주소 git-my-practice`를 실행하세요. `.git`까지 포함해야 이력이 전달되므로, ZIP 다운로드 대신 clone을 사용하세요.
-
-이후 터미널의 현재 폴더는 항상 `git-my-practice`입니다.
+이후 터미널의 현재 폴더는 항상 `git-practice`입니다.
 
 ```powershell
 git status
